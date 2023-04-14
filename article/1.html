@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forgetting To Reverse Symbols</title>
+    <link rel="icon" href="../favicon.svg">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+      body {
+        background-color: #2c3e50;
+        font-family: Montserrat;
+        color: white;
+        margin: 2rem;
+      }
+      a:link {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:visited {
+        color: rgb(206, 185, 204);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">
+        <h1>Clifford Kong's Math Mistakes</h1>
+    </a>
+    <h1 style="font-weight: 700">Forgetting to Reverse Symbols</h1>
+    <h2 id="date">14 April 2023</h2>
+    <p>
+    Video version (Log in with your school account. If you can't, ask me for the file)<br><a href="https://drive.google.com/file/d/14QpihIaWvKiF0wJKXiunvSYh26o3gW4b/view?usp=sharing">https://drive.google.com/file/d/14QpihIaWvKiF0wJKXiunvSYh26o3gW4b/view?usp=sharing</a>
+    <br>
+    <br>
+     This is a mistake I frequently make and my teacher never truly explained this. I kept on getting questions wrong and wondered, "What on Earth did I do wrong?"
+     <br>
+     <br>
+     As an example, let's take this question from Cambridge Maths NSW Year 9 5.3 Second Edition. This is Chapter 8D, question 7g.
+     <br>
+     <br>
+     <img src="1-assets/original question.png" width="35%" height="35%">
+     <br>
+     <br>
+     Image Text:
+     <br>
+        <i>
+        Factorise the following:
+    <br>
+        g) 49-(𝑥+3)<sup>2</sup>
+        </i>
+     <br>
+     <br>
+     First, as the example in the textbook suggests, turn the 49 into a square, so we can make the equation a difference of squares.
+     <br>
+     = <i>7<sup>2</sup>-(𝑥+3)<sup>2</sup></i>
+     <br>
+     <br>
+     We all know that the expansion of the difference of squares is <i>(𝑎+𝑏)(𝑎-𝑏)</i>, with in this case 𝑎 being 7<sup>2</sup> and 𝑏 being -(𝑥+3)<sup>2</sup>. This is the next step, however here I made a mistake.
+     <br>
+     <br>
+     I got the answer <i>(7+𝑥+3)(7-𝑥+3)</i>. I thought this was right. One of 𝑥+3's was subtracting from 7, the other one adding. "That follows the rules, right?" is what I thought in my head.
+     <br>
+     I added the 7 and 3 in both brackets, with a final answer of:
+     <i>(10+x)(10-x)</i>. After I finish the entirety of the excersise, I flip back to the answers. Low and behold, I got 7g wrong.
+     <br>
+     <br>
+     The answer was… (10 + x)(4 – x)? I thought this wrong. I chucked it into Microsoft Math Solver. Same answer (although it had used a different method from me and the textbook). 
+     I hopped on the online version of the textbook, with its step-by-step answers. I was stunned.
+     <br>
+     <br>
+     Remember that step where I got <i>(7+𝑥+3)(7-𝑥+3)</i>? Well, it turns out they got <i>(7+𝑥+3)(7-𝑥-3)</i>. "How???" I shouted. I almost woke up all my neighbours with my 3am math shenanigans.
+     <br>
+     <br>
+     <br>
+     <br>
+     Now, time for the math explanation. If you skipped to this part, duck you.
+     <br>
+     <br>
+     I got the first set of brackets correct, which required adding. However, it was the subtracting I got wrong. <i>7-(𝑥+3)</i>. I got that simple of an equation wrong? Dumbfounded, I consulted Bing AI. It used a different method to solve the equation, meaning it took me some time to fully understand its response.
+     <br>
+     <br>
+     The AI said to me that you have to change the signs of the 𝑥 and the 3, which means changing them from positive to negative. The reason why is because when you subtract 𝑥+3, what you are really doing is subtracting each of the terms individually from 7. If that's a little complicated, then just imagine that the positive 𝑥 and positive 3 turned into negatives because the minus sign beside the brackets was being multiplied with each term.
+     <br>
+     <br>
+     So remember: If you've got to subtract a positive binomial from something, remember to turn all the terms in the binomial negative.
+     <br>
+     <br>
+     Full working: 
+     <br>
+     <br>
+     <img src="1-assets/final working.jpg" width="50%" height="40%">
+     <br>
+     <br>
+     Any questions or mistakes (in this post)? Email me: <a href="mailto:clifford.kong@sydstu.catholic.edu.au">clifford.kong@sydstu.catholic.edu.au</a>
+    </p>
+  </body>
+</html>
